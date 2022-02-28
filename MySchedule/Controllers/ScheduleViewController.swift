@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ScheduleViewController.swift
 //  MySchedule
 //
 //  Created by Анатолий Алипур on 28.02.2022.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ScheduleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        title = "Schedule"
+        view.backgroundColor = .systemBackground
     }
-
-
 }
-
