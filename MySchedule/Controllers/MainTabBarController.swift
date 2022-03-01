@@ -21,7 +21,7 @@ class MainTabBarController: UITabBarController {
         viewControllers = [scheduleViewController, tasksViewController, contactsViewController]
     }
 
-    func createNavController( vc: UIViewController, itemName: String, itemImage: String) -> UINavigationController {
+    func createNavController(vc: UIViewController, itemName: String, itemImage: String) -> UINavigationController {
         let item = UITabBarItem( title: itemName, image: UIImage(systemName: itemImage), tag: 0)
         let navController = UINavigationController(rootViewController: vc)
         navController.tabBarItem = item
